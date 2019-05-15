@@ -1,0 +1,32 @@
+{
+  "name": "training-ui-auto-tcb",
+  "version": "1.0.0",
+  "description": "Training project.UI automation by tcb for slash.",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.dev.cybozu.co.jp/SHTE/training-ui-auto-tcb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.8.4",
+    "@wdio/dot-reporter": "^5.7.8",
+    "@wdio/junit-reporter": "^5.8.0",
+    "@wdio/local-runner": "^5.8.4",
+    "@wdio/mocha-framework": "^5.8.1",
+    "@wdio/sync": "^5.8.1",
+    "chai": "^4.2.0",
+    "webdriverio": "^5.8.4",
+    "tcb-utils": "2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4"
+  }
+}
